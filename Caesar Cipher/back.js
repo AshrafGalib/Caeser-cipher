@@ -1,12 +1,5 @@
-function Clear(){
-    const showDiv1=document.getElementById('showDiv')
-    const showUl =document.getElementById('showUl1')
-    const showDiv2=document.getElementById('showDiv1')
-    const showUl1 =document.getElementById('showUl2')
-    const getInputField= document.getElementById('InputValue')
-    getInputField.value=''
-    showDiv1.removeChild(showUl)
-    showDiv2.removeChild(showUl1)
+function reloadPage(){
+    window.location.reload();
 }
 function getValue1(){
 const getInputField= document.getElementById('InputValue')
